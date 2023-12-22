@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audios no site</title>
+</head>
+<body><h1>vamos aprender a reproduzir audios em html 5</h1>
+    <p>reproduzindo o audio</p>
+    <audio src="midia/audio 1.mp3" controls autoplay loop></audio>
+    <p>outra forma de carregar o audio</p>
+    <audio preload="metadata" autoplay controls>
+       <source src="midia/audio 1.mp3" type="audio/mpeg">
+       <source src="midia/audio 1.ogg" type="audio/ogg">
+       <source src="midia/audio 1.uav" type="audio/uav"> <!--sera dividido em ordem sendo o mpeg o primeiro e uav o ultimo e caso nenhum dos 3 seja carregado o paragrafo ira aparecer-->
+       <p>infelimente o seu navegador nao consegue reproduzir audio click neste link para reproduzir o audio <a href="midia/audio 1.mp3">aqui</a></p>
+    </audio>
+    <h1>colocando videos no site</h1>
+<h1>insirando videos hospedados localmente</h1>
+<p>este video esta hospedado no meu proprio servidor</p>
+<video src="videos/videodaluz.mp4.mp4" width="500" controls autoplay loop></video>
+<p>outra forma</p>
+<video width="560" controls poster="imagens/foto-perfil-guanabara.png">
+      <source src="videos/videodaluz.mp4.mp4" type="video/mp4">
+      <source src="videos/Videodaluz.mkv.mkv" type="video/mp4">
+      <source src="videos/Videodaluz.webm.webm" type="video/wbm">
+      <p>o seu navegador nao é compativel com nenhum tipo de video</p>
+</video>
+<h1>insirindo videos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=M7pCjZlduxODb9-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>usando o vimeo</p>
+<iframe src="https://player.vimeo.com/video/67961472?h=9c7851ca3e&autoplay=1&loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/67961472">Passenger - Let Her Go</a> from <a href="https://vimeo.com/jeremymoulton">Jeremy Moulton</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+
+</html>

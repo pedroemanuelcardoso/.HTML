@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(113, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+tudo que em html é id em css é # (so pode 1 elemento por pagina
+tudo que em html é class em css é . (pode ter varios elementos
+::=pseudo-elementos
+a class vem antes do id
+da pra colocar mais de 1 class em um mesmo elemento e um id e class junto
+mas o id sobrepoem a classe
+sendo que é herdado as configurações da primeira classe e adiciona as outras da segunda classe
+nao usar o mesmo id para varios elementos
+*/
+h1{
+    color: rgb(28, 49, 49);
+}
+#principal{
+    text-align: center;
+    background-color: rgb(2, 128, 128);;
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(0, 110, 110);
+}
+.basico{
+    color: rgb(110, 0, 101);;
+}
+.intermediario{
+  color: rgb(68, 110, 0);;
+}
+.avancado{
+     color: rgb(110, 0, 0);;
+}
+.destaque{
+    color: aquamarine;
+    background-color: rgb(12, 87, 62);
+}
