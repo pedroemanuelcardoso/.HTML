@@ -20,7 +20,7 @@ header>blockquote{
    color: rgb(196, 192, 192);
    padding-bottom: 50px;
 }
-blockquote>a{
+a{
     color: white;
     text-decoration: none;
 }
@@ -53,16 +53,16 @@ div.p2{
     color: white;
 }
 div.p3{
-    background-color: white;
-    width: 636px;
-    height: 744px;
-    padding-left: 26px;
-    padding-top: 66px;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-    line-height: 109px;
-    font-size: 3em;
-    font-family: DM Serif Display;
+     background-color: white;
+     width: 636px;
+     height: 744px;
+     padding-left: 26px;
+     padding-top: 66px;
+     padding-bottom: 140px;
+     margin-bottom: 10px;
+     line-height: 109px;
+     font-size: 3em;
+     font-family: DM Serif Display;
    }
 div#p4{
     background: orange url(imagens/background002.jpg) center center no-repeat fixed;
@@ -89,3 +89,16 @@ section{
     padding: 15px;
 
 }
+footer{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+   }
+footer>p{
+    margin: auto;
+    text-align: center;
+    font-family: DM Serif Display;
+    color:rgb(194, 186, 186);
+    font-size: 20px;
+   }
