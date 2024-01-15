@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
   }
+  html, body{
+    min-height: 100vh;
+}
 header{
     text-align: center;
     background-color: black;
@@ -12,7 +15,7 @@ header{
     font-family: DM Serif Display
 }
 header>h1{
-    font-size: 109px;
+    font-size: 10vw;
 
 }
 header>blockquote{
@@ -27,15 +30,22 @@ a{
 a:hover{
     text-decoration: underline;
 }
+div{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
 div.p1{
     background-color: white;
-    width: 636px;
+    /*width: 636px;
     height: 744px;
     padding-left: 26px;
     padding-top: 66px;
     margin-bottom: 10px;
     line-height: 109px;
-    font-size: 3em;
+    font-size: 3em;*/
     font-family: DM Serif Display;
 }
 div.p2{
@@ -54,14 +64,14 @@ div.p2{
 }
 div.p3{
      background-color: white;
-     width: 636px;
+     /*width: 636px;
      height: 744px;
      padding-left: 26px;
      padding-top: 66px;
      padding-bottom: 140px;
      margin-bottom: 10px;
      line-height: 109px;
-     font-size: 3em;
+     font-size: 3em;*/
      font-family: DM Serif Display;
    }
 div#p4{
@@ -81,7 +91,9 @@ div#p4{
 section{
     background-color: rgba(0, 0, 0, 0.61);
     max-width: 45%;
+    font-size: 3.5vw;
     padding-bottom:10px;
+    
 }
 #texto{
 
