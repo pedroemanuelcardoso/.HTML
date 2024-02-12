@@ -6,6 +6,33 @@
     <title>formulario 3</title>
 </head>
 <body>
-    
+    <h1>teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+     <p>
+        <label for="inome">nome:</label>
+        <input type="text" name="nome" id="inome" required maxlength="30"
+        placeholder="nome completo" autocomplete="name">
+     </p>
+     <p>
+        <label for="imedia">média:</label>
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0,1" required>
+     </p>
+     <p>
+        <label for="iperiodo">periodo letivo:</label>
+        <input type="month" name="periodo" id="iperiodo" value="2024-06" required>
+     </p>
+     <p>
+        <label for="idia">dia da prova:</label>
+        <input type="date" name="dia" id="idia" required>
+     </p>
+     <p>
+        <label for="ihorario">horario da prova</label>
+        <input type="time" name="horario" id="ihorario" required>
+     </p>
+     <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+     </p>
+    </form>
 </body>
 </html>
