@@ -6,6 +6,40 @@
     <title>formulario</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="cadastro.php" method="post" autocomplete="on">
+     <p>
+       <label for="iestado">estados</label>
+       <select name="estado" id="iestado">
+        <option value="" selected>------escolha------</option>
+        <optgroup>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MA">Maranhao</option>
+        </optgroup>
+        <optgroup>
+            <option value="CE">Ceara</option>
+            <option value="AC">Acre</option>
+            <option value="SP">Sao Paulo</option>
+        </optgroup>
+       </select>
+     </p>
+     <p>
+        <label for="iprof">profissao</label>
+        <input type="text" name="profi" id="iprof" list="lista">
+        <datalist id="lista">
+            <option value="MD">Medico</option>
+            <option value="PG">Programador</option>
+            <option value="DT">dentista</option>
+            <option value="PD">Pedreiro</option>
+        </datalist>
+     </p>
+     <p>
+        <label for="img">mensagem:</label>
+        <textarea name="mensagem" id="img" cols="30" rows="10" placeholder="coloque sua mensagem"></textarea>
+     </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
 </body>
 </html>
